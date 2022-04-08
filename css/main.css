@@ -1,0 +1,129 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Jost', sans-serif;
+}
+body {
+    background: #253b4a;
+}
+h1 {
+    text-align: center;
+    padding: 240px 0;
+    color: #f1f1f1;
+}
+
+img.iphone2g {
+    width: 250px;
+}
+
+img.SCH-R900 {
+    width: 250px;
+}
+
+img.Gfold {
+    width: 200px;
+}
+
+
+.box-timeline {
+    width: 100%;
+    height: 1500px;
+    background: #2a2a2a;
+    position: relative;
+    padding: 80px 0 250px 0;
+    margin-bottom: 100px;
+}
+
+.ligne {
+    height: 1000px;
+    width: 8px;
+    margin: 0 auto;
+    background: #004c6d;
+}
+
+.rond {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #004c6d;
+    position: absolute;
+    border: 1px solid #082a46;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.r1{top: 80px;}
+.r2{top: 386px;}
+.r3{top: 692px;}
+.r4{top: 1000px;}
+
+.box {
+    color: rgb(250, 250, 250);
+    width: 400px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 3px;
+    height: auto;
+    background: #393939;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.b1 {
+    top: 80px;
+    left: calc(50% - 370px);
+}
+.b2 {
+    top: 386px;
+    left: calc(50% + 370px);
+}
+.b3 {
+    top: 692px;
+    left: calc(50% - 370px);
+}
+.b4 {
+    top: 1000px;
+    left: calc(50% + 370px);
+}
+
+.box p {
+    line-height: 20px;
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+.btn {
+    display: block;
+    background: #112837;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .ligne {
+        position: relative;
+        left: 200px;
+    }
+    .rond {
+        left: calc(50% + 200px);
+    }
+    .box {
+        left: calc(50% - 50px)
+    }
+
+}
