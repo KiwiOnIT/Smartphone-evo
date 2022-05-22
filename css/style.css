@@ -120,7 +120,8 @@ img.S22ultra {
 .btnC {
     display: block;
     background: #112837;
-    width: 120px;
+    width: 240px;
+    height: 30px;
     text-align: center;
     color: #f1f1f1;
     text-decoration: none;
